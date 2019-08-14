@@ -1,0 +1,8 @@
+<div clas="booyah-box col-10 offset-1">
+<h1>Enter Your Puzzle Here</h1>
+<%= simple_form_for @puzzle do |f| %>
+  <%= f.input :message %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
+</div>
